@@ -1,0 +1,13 @@
+[package]
+name = "my_runtime"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+uring-sys = "0.7.4"
+io-uring = "0.7.0"
+async-task = "4.7.1"
+futures = "0.3.31"
+flume = "0.11.1"
+waker-fn = "1.2.0"
+parking = "2.2.1"
